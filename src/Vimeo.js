@@ -23,7 +23,7 @@ function Vimeo() {
             <button onClick={handleClick} >ADD</button>
 
         </form>
-        <iframe src={`https://player.vimeo.com/video/${vimeoData}`} width="640" height="234" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <iframe  width="640" height="234" src={`https://player.vimeo.com/video/${vimeoData}`} frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
     </div>
   )
 }
